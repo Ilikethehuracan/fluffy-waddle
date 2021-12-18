@@ -1,0 +1,61 @@
+img{ 
+    height: 500px;
+    width: auto;
+}
+table{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px groove white;
+    background-color: white;
+    border-spacing: 0px;
+    border-collapse: none;
+}
+th{ 
+    border: 5px groove white;
+    transition-duration: 0.5s;
+}
+td{ 
+    border: 5px groove white;
+    transition-duration: 0.5s;
+}
+body{ 
+color: blue;
+font-family: fantasy;
+cursor: default;
+background-color: dodgerblue;
+}
+button{ 
+    color: blue;
+    font-family: fantasy;
+    background-color: whitesmoke;
+    border: 5px solid lightgray;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-right: 100px;
+    transition-duration: 0.5s;
+}
+button:hover{ 
+    text-decoration: underline;
+    background-color: dodgerblue;
+    color: white;
+    border: 5px solid blue;
+    transform:scale(0.9);
+}
+hr{ 
+    border: 5px dashed white;
+    height: 0px;
+}
+th:hover{ 
+    text-decoration: underline;
+    background-color: dodgerblue;
+    color: white;
+    border: 5px solid blue;
+}
+td:hover{ 
+    text-decoration: underline;
+    background-color: dodgerblue;
+    color: white;
+    border: 5px solid blue;
+}
